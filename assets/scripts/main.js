@@ -49,7 +49,7 @@ mobileNav.scroll( () => {
             console.log("hit Bottom");
         }
         else{
-            // navArray[position].fadeTo(0,1);
+            navArray[position].fadeTo(0,1);
         }
     }
 
