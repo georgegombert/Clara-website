@@ -37,6 +37,7 @@ a:active {
 .nav-animation{
     max-height: 8rem;
     overflow: scroll;
+    -webkit-overflow-scrolling: touch;
     
 }
 
