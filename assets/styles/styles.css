@@ -49,6 +49,7 @@ a:active {
 
     .mobile-nav a{
         font-family: 'Caveat Brush', cursive;
+        font-size: 2rem;
         text-decoration: none;
         margin-bottom: .5rem;
     }
