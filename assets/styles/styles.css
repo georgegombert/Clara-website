@@ -1,0 +1,55 @@
+*{
+    margin: 0m;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:link {
+    color: #747474;
+}
+
+a:visited {
+color: #747474;
+}
+
+a:active {
+    color: black;
+} 
+
+.hero{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.header{
+    margin: 0rem;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Caveat Brush', cursive;
+}
+
+.mobile-nav{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .header{
+        font-size: 3rem;
+    }
+
+    .mobile-nav{
+        margin-top: .5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-nav a{
+        font-family: 'Caveat Brush', cursive;
+        text-decoration: none;
+        margin-bottom: .5rem;
+    }
+}
